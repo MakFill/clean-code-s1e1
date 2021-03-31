@@ -1,50 +1,62 @@
 /* Basic Style */
+
 .body {
   background-color: #f8f8f8;
   color: #333;
   font-family: "Lato", sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header img {
   width: 100%;
-}
+} 
+
 .more-inf {
   font-family: "fantasy", cursive;
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
+  .header { 
+    text-align: center;
 }
+
 }
 .main {
   display: block;
   width: 400px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .add-input {
   display: flex;
 }
+
 #incomplete,
 #completed {
   margin:0;
   padding: 0px;
 }
+
 .item, .block-title {
   list-style:none;
 }
+
 .input,.btn{
   outline:none;
 }
+
 .btn {
   background: none;
   border: 0px;
@@ -54,10 +66,13 @@
   font-family: "Lato", sans-serif;
   cursor: pointer;
 }
+
 .btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
+
 .block-title,
 label[for="new-task"] {
   color: #333;
@@ -68,6 +83,7 @@ label[for="new-task"] {
   margin: 0;
   text-transform: uppercase;
 }
+
 .txt {
   margin: 0;
   font-size: 18px;
@@ -80,32 +96,37 @@ label[for="new-task"] {
   font-family: "Lato", sans-serif;
   color: #888;
 }
+
 .txt:focus {
   color: #333;
 }
 
 /* New Task */
+
 label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
+
 .add-btn:hover {
   color: #0fc57c;
 }
 
 /* Task list */
+
 .item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 /* .item > * {
   vertical-align: middle;
 } */
@@ -113,34 +134,41 @@ label[for="new-task"] {
 .checkbox {
   margin: 0 10px;
 }
+
 .item-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .item .txt {
   width: 226px
 }
+
 /* .delete:hover {
   color: #cf2323;
 } */
+
 .delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete-img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 #completed .item-label {
   text-decoration: line-through
   color: #888;
 }
 
 /* Edit Task */
+
 .item .txt {
   display:none
 }
