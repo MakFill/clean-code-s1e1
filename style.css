@@ -36,7 +36,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .add-input {
@@ -143,7 +143,7 @@ label[for="new-task"] {
 }
 
 .item .txt {
-  width: 226px
+  width: 226px;
 }
 
 /* .delete:hover {
@@ -163,19 +163,19 @@ label[for="new-task"] {
 /* Completed */
 
 #completed .item-label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
 .item .txt {
-  display: none
+  display: none;
 }
 
 .edit-mode .txt {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .item-label {
